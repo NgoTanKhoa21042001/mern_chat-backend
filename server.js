@@ -7,7 +7,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors());
 
-// require("./connection");
+require("./connection");
 
 // create our server
 const server = require("http").createServer(app);
